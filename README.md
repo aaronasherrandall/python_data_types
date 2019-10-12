@@ -118,24 +118,45 @@ This is a string
 
 ## List
 
-#### A list object is an ordered collection of one or more data items, not necessarily of the same type, put in square brackets.
+#### A list object is an ordered collection of one or more data items, not necessarily of the same type, put in square brackets. It is one of the most used datatype in Python and is very flexible. All the items in a list do not need to be of the same type.
 
+#### Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ].
 
 ```Python
-x = False
-print(bool(x)) 
-x = True
-print(bool(x)) 
-x = 5
-y = 10
-print(bool(x==y)) 
+a = [1, 2.2, 'python']
+```
+
+#### We can use the slicing operator [ ] to extract an item or a range of items from a list. Index starts form 0 in Python.
+
+```Python
+a = [5, 10, 15, 20, 25, 30, 35, 40]
+
+print("a[2] = ", a[2])
+
+print("a[0:3] = ", a[0:3])
+
+print("a[5:] = ", a[5:])
+
+print("a[5:] = ", a[:5])
 ```
 Running the above outputs the following in terminal:
 ```Python
-False
-True
-False
+a[2] =  15
+a[0:3] =  [5, 10, 15]
+a[5:] =  [30, 35, 40]
+a[5:] =  [5, 10, 15, 20, 25]
+a[5:] =  [5, 10, 15, 20, 25, 30, 35, 40]
 ```
+#### Lists are mutable, meaning, value of elements of a list can be altered.
+
+```Python
+a = [1,2,3]
+a[2]=4
+```
+Calling a outputs the following in terminal:
+```Python
+[1, 2, 4]
+````
 
 ## Tuple
 
