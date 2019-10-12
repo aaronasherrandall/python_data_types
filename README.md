@@ -5,7 +5,7 @@ Guide to Data Types in Python
 
 #### Data types are the classification or categorization of data items. Data types represent a kind of value which determines what operations can be performed on that data. Numeric, non-numeric and Boolean (true/false) data are the most used data types.
 
-### Python has the following standard or built-in data types:
+### Python has the following standard or built-in data types: Numeric, Boolean, Sequence Type, Dictionary, Mutable and Immutable Objects
 
 ## Numeric
 #### A numeric value is any representation of data which has a numeric value. 
