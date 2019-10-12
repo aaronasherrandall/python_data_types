@@ -109,7 +109,7 @@ False
 ```Python
 s = "This is a string"
 ```
-Calling s outputs the following in terminal:
+Calling varable **s** outputs the following in terminal:
 ```Python
 This is a string
 ```
@@ -144,6 +144,10 @@ a[0:3] =  [5, 10, 15]
 a[5:] =  [30, 35, 40]
 a[:5] =  [5, 10, 15, 20, 25]
 ```
+
+Note that, calling a[0:3] only outputs indices 0, 1 and 2. a[0:3] specifies to call all indicies up to but **not** including 3.
+Conversely, calling a[5:] outputs all indices starting from and including 5 up until the last index in the list.
+
 #### Lists are mutable, meaning, value of elements of a list can be altered.
 
 ```Python
