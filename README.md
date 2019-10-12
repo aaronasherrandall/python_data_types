@@ -101,19 +101,62 @@ False
 
 ## Sequence Type
 
-### A sequence is an ordered collection of similar or different data types. Python has the following built-in sequence data types:
+#### A sequence is an ordered collection of similar or different data types. Python has the following built-in sequence data types:
 
 ## String
 
-#### A string value is a collection of one or more characters put in single, double or triple quotes.
+#### A string value is a collection of one or more characters put in single, double or triple quotes. Multi-line strings can be denoted using triple quotes, ''' or """.
+
+
+```Python
+s = "This is a string"
+```
+Calling s outputs the following in terminal:
+```Python
+This is a string
+```
 
 ## List
 
 #### A list object is an ordered collection of one or more data items, not necessarily of the same type, put in square brackets.
 
+
+```Python
+x = False
+print(bool(x)) 
+x = True
+print(bool(x)) 
+x = 5
+y = 10
+print(bool(x==y)) 
+```
+Running the above outputs the following in terminal:
+```Python
+False
+True
+False
+```
+
 ## Tuple
 
 #### A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses.
+
+
+```Python
+x = False
+print(bool(x)) 
+x = True
+print(bool(x)) 
+x = 5
+y = 10
+print(bool(x==y)) 
+```
+Running the above outputs the following in terminal:
+```Python
+False
+True
+False
+```
 
 ## Checking the Type
 
