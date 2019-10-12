@@ -7,7 +7,7 @@ Guide to Data Types in Python
 
 #### Python has the following standard or built-in data types: Numeric, Boolean, Sequence Type, Dictionary, Mutable and Immutable Objects
 
-## Numeric
+# Numeric
 #### A numeric value is any representation of data which has a numeric value. 
 
 #### An object of Number data type represents a numeric literal. In computer science, a literal is a notation for representing a fixed value in the source code. For example, in the assignment statement:
@@ -77,7 +77,7 @@ We can call c and receive the following in terminal:
 (1+2j)
 ```
 
-## Boolean
+# Boolean
 
 #### Data with one of two built-in values True or False. Notice that 'T' and 'F' are capital. true and false are not valid booleans and Python will throw an error for them. Boolean values are the two constant objects False and True. In numeric contexts (for example, when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. 
 
@@ -99,7 +99,7 @@ True
 False
 ```
 
-## Sequence Type
+# Sequence Type
 
 #### A sequence is an ordered collection of similar or different data types. Python has the following built-in sequence data types:
 
@@ -185,6 +185,26 @@ t[1] =  program
 t[0:3] =  (5, 'program', (1+3j))
 ```
 Note: since tuples are immutable, we cannot perform variable reassignment such as in ```Python t[0] = 10```. This outputs an error in terminal.
+
+## Dictionary
+
+#### Python Dictionary is an unordered sequence of data of key-value pair form. It is similar to the hash table type. Dictionaries are written within curly braces in the form key:value. It is very useful to retrieve data in an optimized way among a large amount of data.
+
+```python
+a = {1:"first name",2:"last name", "age":33}
+
+print(a[1])
+print(a[2])
+print(a["age"])
+```
+Calling the sample dictionary variable a outputs the following in terminal:
+
+```Python
+first name
+last name
+33
+```
+
 
 ## Checking the Type
 
