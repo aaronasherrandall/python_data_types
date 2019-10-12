@@ -144,8 +144,7 @@ Running the above outputs the following in terminal:
 a[2] =  15
 a[0:3] =  [5, 10, 15]
 a[5:] =  [30, 35, 40]
-a[5:] =  [5, 10, 15, 20, 25]
-a[5:] =  [5, 10, 15, 20, 25, 30, 35, 40]
+a[:5] =  [5, 10, 15, 20, 25]
 ```
 #### Lists are mutable, meaning, value of elements of a list can be altered.
 
@@ -160,24 +159,32 @@ Calling a outputs the following in terminal:
 
 ## Tuple
 
-#### A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses.
+#### A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses. The only difference is that tuples are immutable. Tuples once created cannot be modified.
+
+#### Tuples are used to write-protect data and are usually faster than list as it cannot change dynamically.
+
+#### It is defined within parentheses () where items are separated by commas.
 
 
 ```Python
-x = False
-print(bool(x)) 
-x = True
-print(bool(x)) 
-x = 5
-y = 10
-print(bool(x==y)) 
+t = (5,'program', 1+3j) 
 ```
-Running the above outputs the following in terminal:
+
 ```Python
-False
-True
-False
+t = (5,'program', 1+3j)
+
+print("t[1] = ", t[1])
+
+print("t[0:3] = ", t[0:3])
+
+t[0] = 10
 ```
+
+```Python
+t[1] =  program
+t[0:3] =  (5, 'program', (1+3j))
+```
+Note: since tuples are immutable, we cannot perform variable reassignment such as in ```Python t[0] = 10```. This outputs an error in terminal.
 
 ## Checking the Type
 
