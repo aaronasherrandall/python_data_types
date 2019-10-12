@@ -30,12 +30,10 @@ y = x*2
 
 #### Integers can be of any length, it is only limited by the memory available. Zero, positive and negative whole numbers without a fractional part and having unlimited precision, e.g. 1234, 0, -456.
 
-#### Integers can be of any length, it is only limited by the memory available.
-
 ```Python
 a = 1234567890123456789
 ```
-We can call a and receive the following in terminal
+We can call the variable **a** and receive the following in terminal
 ```Python
 1234567890123456789
 ```
@@ -79,7 +77,7 @@ We can call c and receive the following in terminal:
 
 # Boolean
 
-#### Data with one of two built-in values True or False. Notice that 'T' and 'F' are capital. true and false are not valid booleans and Python will throw an error for them. Boolean values are the two constant objects False and True. In numeric contexts (for example, when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. 
+#### Data with one of two built-in values True or False. Notice that 'T' and 'F' are capital; true and false are not valid booleans and Python will throw an error for them. Boolean values are the two constant objects False and True. In numeric contexts (for example, when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. 
 
 #### The built-in function bool() can be used to cast any value to a Boolean, if the value can be interpreted as a truth value:
 
