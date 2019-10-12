@@ -22,7 +22,7 @@ y = x*2
 #### Here, even if the expression evaluates to 20, it is not literally included in the source code.
 
 
-#### * *Python identifies three types of numbers: Integers, Floats, Complex Numbers* *
+#### *Python identifies three types of numbers: Integers, Floats, Complex Numbers*
 
 ## Integer
 
