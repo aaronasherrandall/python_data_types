@@ -22,9 +22,11 @@ y = x*2
 #### Here, even if the expression evaluates to 20, it is not literally included in the source code.
 
 
-### Python identifies three types of numbers:
+## Python identifies three types of numbers: Integers, Floats, Complex Numbers
 
-### Integer: Positive or negative whole numbers (without a fractional part)
+## Integer
+
+#### Positive or negative whole numbers (without a fractional part)
 
 #### Integers can be of any length, it is only limited by the memory available. Zero, positive and negative whole numbers without a fractional part and having unlimited precision, e.g. 1234, 0, -456.
 
@@ -63,7 +65,7 @@ We can call b and receive the following in terminal
 Notice that the float variable b got truncated.
 
 
-## Complex number
+## Complex Numbers
 
 #### A number with a real and imaginary component represented as x+yj. x and y are floats and j is -1(square root of -1 called an imaginary number)
 
@@ -98,6 +100,20 @@ False
 ```
 
 ## Sequence Type
+
+### A sequence is an ordered collection of similar or different data types. Python has the following built-in sequence data types:
+
+## String
+
+#### A string value is a collection of one or more characters put in single, double or triple quotes.
+
+## List
+
+#### A list object is an ordered collection of one or more data items, not necessarily of the same type, put in square brackets.
+
+## Tuple
+
+#### A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses.
 
 ## Checking the Type
 
