@@ -5,7 +5,7 @@ Guide to Data Types in Python
 
 #### Data types are the classification or categorization of data items. Data types represent a kind of value which determines what operations can be performed on that data. Numeric, non-numeric and Boolean (true/false) data are the most used data types.
 
-### Python has the following standard or built-in data types: Numeric, Boolean, Sequence Type, Dictionary, Mutable and Immutable Objects
+#### Python has the following standard or built-in data types: Numeric, Boolean, Sequence Type, Dictionary, Mutable and Immutable Objects
 
 ## Numeric
 #### A numeric value is any representation of data which has a numeric value. 
@@ -25,20 +25,77 @@ y = x*2
 ### Python identifies three types of numbers:
 
 ### Integer: Positive or negative whole numbers (without a fractional part)
-#### Zero, positive and negative whole numbers without a fractional part and having unlimited precision, e.g. 1234, 0, -456.
-#### A number having 0o or 0O as prefix represents an octal number.
 
-#### For example: 0O12: equivalent to 10 (ten) in the decimal number system.
+#### Integers can be of any length, it is only limited by the memory available. Zero, positive and negative whole numbers without a fractional part and having unlimited precision, e.g. 1234, 0, -456.
 
-#### A number with 0x or 0X as prefix represents hexadecimal number.
+#### Integers can be of any length, it is only limited by the memory available.
 
-#### For example: 0x12: equivalent to 18 (Eighteen) in the decimal number system.
+```Python
+a = 1234567890123456789
+```
+We can call a and receive the following in terminal
+```Python
+1234567890123456789
+```
 
-### Float: Any real number with a floating point representation in which a fractional component is denoted by a decimal symbol or scientific notation
 
-### Complex number: A number with a real and imaginary component represented as x+yj. x and y are floats and j is -1(square root of -1 called an imaginary number)
+##### A number having 0o or 0O as prefix represents an octal number.
+
+##### For example: 0O12: equivalent to 10 (ten) in the decimal number system.
+
+##### A number with 0x or 0X as prefix represents hexadecimal number.
+
+##### For example: 0x12: equivalent to 18 (Eighteen) in the decimal number system.
+
+## Float
+
+#### Any real number with a floating point representation in which a fractional component is denoted by a decimal symbol or scientific notation
+
+#### A floating point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points. 1 is integer, 1.0 is floating point number.
+
+```Python
+b = 0.1234567890123456789
+```
+We can call b and receive the following in terminal
+```Python
+0.1234567890123456789
+```
+Notice that the float variable b got truncated.
+
+
+## Complex number
+
+#### A number with a real and imaginary component represented as x+yj. x and y are floats and j is -1(square root of -1 called an imaginary number)
+
+```Python
+>>> c = 1+2j
+````
+We can call c and receive the following in terminal:
+```Python
+(1+2j)
+```
 
 ## Boolean
+
+#### Data with one of two built-in values True or False. Notice that 'T' and 'F' are capital. true and false are not valid booleans and Python will throw an error for them. Boolean values are the two constant objects False and True. In numeric contexts (for example, when used as the argument to an arithmetic operator), they behave like the integers 0 and 1, respectively. 
+
+#### The built-in function bool() can be used to cast any value to a Boolean, if the value can be interpreted as a truth value:
+
+```Python
+x = False
+print(bool(x)) 
+x = True
+print(bool(x)) 
+x = 5
+y = 10
+print(bool(x==y)) 
+```
+Running the above outputs the following in terminal:
+```Python
+False
+True
+False
+```
 
 ## Sequence Type
 
