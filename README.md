@@ -154,7 +154,7 @@ Conversely, calling a[5:] outputs all indices starting from and including 5 up u
 a = [1,2,3]
 a[2]=4
 ```
-Calling a outputs the following in terminal:
+Calling variable **a** outputs the following in terminal:
 ```Python
 [1, 2, 4]
 ````
@@ -163,7 +163,7 @@ Calling a outputs the following in terminal:
 
 #### A Tuple object is an ordered collection of one or more data items, not necessarily of the same type, put in parentheses. The only difference is that tuples are immutable. Tuples once created cannot be modified.
 
-#### Tuples are used to write-protect data and are usually faster than list as it cannot change dynamically.
+#### Tuples are used to write-protect data and are usually faster than lists as it cannot change dynamically.
 
 #### It is defined within parentheses () where items are separated by commas.
 
@@ -185,12 +185,13 @@ t[0] = 10
 ```Python
 t[1] =  program
 t[0:3] =  (5, 'program', (1+3j))
+error
 ```
 Note: since tuples are immutable, we cannot perform variable reassignment such as in ```Python t[0] = 10```. This outputs an error in terminal.
 
 ## Dictionary
 
-#### Python Dictionary is an unordered sequence of data of key-value pair form. It is similar to the hash table type. Dictionaries are written within curly braces in the form key:value. It is very useful to retrieve data in an optimized way among a large amount of data.
+#### Python Dictionary is an unordered sequence of data of key-value pair form. It is similar to the hash table type. Dictionaries are written within curly braces in the form ```key:value``` It is very useful to retrieve data in an optimized way among a large amount of data.
 
 ```python
 a = {1:"first name",2:"last name", "age":33}
